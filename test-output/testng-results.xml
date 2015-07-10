@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32677" started-at="2015-07-09T16:43:48Z" finished-at="2015-07-09T16:44:21Z">
+  <suite name="Default suite" duration-ms="62343" started-at="2015-07-10T17:29:56Z" finished-at="2015-07-10T17:30:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32677" started-at="2015-07-09T16:43:48Z" finished-at="2015-07-09T16:44:21Z">
+    <test name="Default test" duration-ms="62343" started-at="2015-07-10T17:29:56Z" finished-at="2015-07-10T17:30:59Z">
       <class name="api">
-        <test-method status="PASS" signature="start()[pri:0, instance:api@1bc6a36e]" name="start" is-config="true" duration-ms="23497" started-at="2015-07-09T23:43:48Z" finished-at="2015-07-09T23:44:12Z">
+        <test-method status="PASS" signature="start()[pri:0, instance:api@2ac1fdc4]" name="start" is-config="true" duration-ms="28158" started-at="2015-07-11T00:29:56Z" finished-at="2015-07-11T00:30:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:api@1bc6a36e]" name="Test" duration-ms="7439" started-at="2015-07-09T23:44:12Z" finished-at="2015-07-09T23:44:19Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:api@2ac1fdc4]" name="Test" duration-ms="27925" started-at="2015-07-11T00:30:25Z" finished-at="2015-07-11T00:30:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:api@1bc6a36e]" name="close" is-config="true" duration-ms="1724" started-at="2015-07-09T23:44:19Z" finished-at="2015-07-09T23:44:21Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:api@2ac1fdc4]" name="close" is-config="true" duration-ms="6073" started-at="2015-07-11T00:30:53Z" finished-at="2015-07-11T00:30:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

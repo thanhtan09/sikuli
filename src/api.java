@@ -46,11 +46,13 @@ public class api {
 			Mouse mouse = new DesktopMouse();
 			mouse.click(r.getCenter());
 			
-			Thread.sleep(10000);
+			Thread.sleep(5000);
 			
 			r = s.find(target2);
-			mouse.click(r.getCenter());
+			mouse.doubleClick(r.getCenter());
+			//mouse.click(r.getCenter());
 			
+			Thread.sleep(3000);
 			Keyboard keyboard = new DesktopKeyboard();
 			keyboard.type("abc");
 		}
