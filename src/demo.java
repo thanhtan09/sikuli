@@ -34,7 +34,7 @@ public class demo {
 	public void Test() throws FindFailed {
 
 		Screen screen = new Screen();
-		Pattern pattern1 = new Pattern(new File("src","new.PNG").getAbsolutePath());
+		Pattern pattern1 = new Pattern(new File("src","install.png").getAbsolutePath());
 		
 		screen.wait(pattern1, 10);
 		screen.click(pattern1);
