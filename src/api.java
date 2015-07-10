@@ -31,7 +31,7 @@ public class api {
 	public void Test() throws  IOException, InterruptedException{
 
 		ScreenRegion s = new DesktopScreenRegion();
-		Target target1 = new ImageTarget(new File("imgs/sign-in.png"));
+		Target target1 = new ImageTarget(new File("imgs","sign-in.png").getAbsoluteFile());
 		Target target2 = new ImageTarget(new File("imgs/txt-email.png"));
 		ScreenRegion r = s.find(target1);
 		
@@ -48,8 +48,8 @@ public class api {
 			
 			Thread.sleep(10000);
 			
-			ScreenRegion r2 = s.find(target2);
-			mouse.click(r2.getCenter());
+			r = s.find(target2);
+			mouse.click(r.getCenter());
 			
 			Keyboard keyboard = new DesktopKeyboard();
 			keyboard.type("abc");
